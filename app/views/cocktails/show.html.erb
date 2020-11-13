@@ -3,10 +3,12 @@
 <div class="container-show">
 
 
+    <%= cl_image_tag @cocktail.photo.key, height: 300, width: 400, crop: :fill %>
   <ul>
-    <h3>Details</h3>
     <% @cocktail.doses.each do |dose| %>
 
+
+    <h3>Details</h3>
       <li><%= dose.description %> <%= dose.ingredient.name %> <%= link_to "Remove",
         dose_path(dose),
         method: :delete, data: { confirm: "Are you sure?" }, class: " text-decoration-none" %></li>

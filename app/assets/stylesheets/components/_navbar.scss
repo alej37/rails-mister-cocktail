@@ -7,7 +7,7 @@
 .navbar-brand{
   color: white;
   position: relative;
-  left: 120px;
+  left: -260px;
   font-size: 25px;
   font-weight: 500;
   font-style: italic;
@@ -25,4 +25,6 @@
 
 .fas {
   font-size: 30px;
+  position: relative;
+  right: 200px;
 }
