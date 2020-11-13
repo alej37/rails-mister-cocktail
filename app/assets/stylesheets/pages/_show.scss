@@ -1,0 +1,24 @@
+h1 {
+  padding: 46px;
+  margin-left: 170px;
+}
+
+
+.container-show{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ul li{
+    list-style-type: none;
+  }
+}
+
+.text-decoration-none {
+  color: white;
+  margin-left: 5px;
+}
+
+.text-decoration-none:hover{
+  color: black;
+}

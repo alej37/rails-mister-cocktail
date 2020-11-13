@@ -1,0 +1,8 @@
+<div class="container">
+  <% @cocktails.each do |cocktail|%>
+    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3))">
+      <%= link_to cocktail.name.capitalize, cocktail_path(cocktail), class: "text-white text-decoration-none" %>
+    </div>
+  <% end %>
+</div>
+

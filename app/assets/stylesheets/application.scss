@@ -14,7 +14,10 @@
  *= require_self
  */
  @import "bootstrap/scss/bootstrap";
+ @import "font-awesome-sprockets";
+@import "font-awesome";
  @import "components/navbar";
-
-
+ @import "components/card";
+ @import "pages/show";
+ @import "pages/new";
 
