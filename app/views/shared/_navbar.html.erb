@@ -1,7 +1,8 @@
-<nav class="navbar ">
-  <a class="navbar-brand"> <%= link_to 'Mister Cocktail' , cocktails_path, class: 'navbar-brand' %> </a>
-  <i class="fas fa-glass-cheers"></i>
-  <form class="form-inline">
-    <%= link_to 'Add cocktail', new_cocktail_path, class:' btn btn-light  my-2 my-sm-0' %>
-  </form>
-</nav>
+<div class="container-navbar">
+  <nav class="navbar">
+    <%= link_to 'Mister Cocktail', root_path, class: 'navbar-brand' %>
+    <%= link_to '', root_path, class: "fas fa-glass-cheers" %>
+    <%= link_to 'Add cocktail', new_cocktail_path, class: 'btn-white' %>
+  </nav>
+</div>
+
