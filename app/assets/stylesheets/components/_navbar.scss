@@ -51,7 +51,6 @@
   color: mintcream;
   font-size: 25px;
   font-style: italic;
-  text-decoration-line: revert;
   font-weight: 600;
   margin-right: 0px;
 }
@@ -61,6 +60,7 @@
 
 .btn-white {
   background-color: mintcream;
+  text-decoration: none;
   border: none;
   border-radius: 5px;
   text-decoration: none;
