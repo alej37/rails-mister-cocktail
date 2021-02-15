@@ -4,16 +4,18 @@
 
   <div class="container-info">
     <%= cl_image_tag @cocktail.photo.key, height: 500, width: 600, crop: :fill %>
-    <ul>
-      <% @cocktail.doses.each do |dose| %>
+    <div class="ingredients-text">
+      <h4>Ingredients</h4>
+      <ul>
+        <% @cocktail.doses.each do |dose| %>
 
 
-      <h3>Details</h3>
-        <li><%= dose.description %> <%= dose.ingredient.name %> <%= link_to "Remove",
-          dose_path(dose),
-          method: :delete, data: { confirm: "Are you sure?" }, class: " text-decoration-none" %></li>
-      <% end %>
-        <%= link_to "Add dose", new_cocktail_dose_path(@cocktail)%>
-    </ul>
+          <li><%= dose.description %> <%= dose.ingredient.name %> <%= link_to "Remove",
+            dose_path(dose),
+            method: :delete, data: { confirm: "Are you sure?" }, class: " text-decoration-none" %></li>
+        <% end %>
+          <%= link_to "Add dose", new_cocktail_dose_path(@cocktail)%>
+      </ul>
+    </div>
   </div>
 </div>

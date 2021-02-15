@@ -1,9 +1,20 @@
 .container-show{
-  border: 2px solid red;
-  height: 600px;
+  padding: 20px;
+  height: 700px;
+  h1{
+    margin-left: 12%;
+  }
+  ul{
+    padding: 0;
+  }
   .container-info{
-    border: 2px solid green;
+    padding: 40px;
     display: flex;
     align-items: center;
+    .ingredients-text{
+      border: 2px solid black;
+      text-align: center;
+      margin-left: 10%;
+    }
   }
 }
