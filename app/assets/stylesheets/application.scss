@@ -23,4 +23,10 @@
 
 body {
   background-color: mintcream;
+  ul {
+    list-style: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
 }
