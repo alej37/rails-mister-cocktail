@@ -1,20 +1,25 @@
 .container-show{
-  padding: 20px;
-  height: 700px;
-  h1{
-    margin-left: 12%;
+  border: 2px solid green;
+  height: 650px;
+  display: flex;
+  .cocktail-image{
+
   }
-  ul{
-    padding: 0;
-  }
-  .container-info{
-    padding: 40px;
-    display: flex;
-    align-items: center;
-    .ingredients-text{
-      border: 2px solid black;
-      text-align: center;
-      margin-left: 10%;
+  .cocktail-text{
+    border: 2px solid blue;
+    .cocktails-description{
+      border: 2px solid purple;
+      h1{
+      }
+      ul{
+      }
     }
+    .cocktail-ingredients{
+      border: 2px solid red;
+    }
+    .cocktail-preparation{
+      border: 2px solid orange;
+    }
+
   }
 }
