@@ -1,6 +1,6 @@
 .container-show{
   border: 2px solid green;
-  height: 650px;
+  height: 100vh;
   padding: 35px;
   display: flex;
   justify-content: center;
@@ -30,8 +30,8 @@
      .btn-remove:hover{
       color: rgb(124, 124, 124);
       border: 2px solid rgb(124, 124, 124) ;
-      padding: 2px 4px;
-      border-radius: 8px;
+      padding: 2px 8px;
+      border-radius: 12px;
       transition-duration: 0.2s;
      }
     }
