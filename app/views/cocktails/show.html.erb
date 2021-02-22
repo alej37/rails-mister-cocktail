@@ -11,14 +11,20 @@
       </div>
       <div class="cocktail-ingredients">
           <h4>Ingredients</h4>
-          <ul>
-            <% @cocktail.doses.each do |dose| %>
-              <li><%= dose.description %> <%= dose.ingredient.name %> <%= link_to "delete",
-                dose_path(dose),
-                method: :delete, data: { confirm: "Are you sure?" }, class: "btn-remove" %></li>
-            <% end %>
-              <%= link_to "Add new ingredient", new_cocktail_dose_path(@cocktail), id: "btn-add"%>
-          </ul>
+          <div class="ingredients-box">
+            <ul>
+              <% @cocktail.doses.each do |dose| %>
+              <div class="ingredient-description">
+                <li><%= dose.description %> <%= dose.ingredient.name %> </li>
+                  <%= link_to "delete",
+                    dose_path(dose),
+                    method: :delete, data: { confirm: "Are you sure?" }, class: "btn-remove" %></li>
+              </div>
+              <% end %>
+                <%= link_to "Add new ingredient", new_cocktail_dose_path(@cocktail), id: "btn-add"%>
+            </ul>
+
+          </div>
       </div>
       <div class="cocktail-preparation">
         <h5>Preparation</h5>

@@ -20,20 +20,30 @@
     .cocktail-ingredients{
       border: 2px solid red;
       background-color: #F6F9F8;
-      #btn-add{
-        color: black;
+      .ingredients-box{
+        .ingredient-description{
+          margin: 12px;
+          display: flex;
+          justify-content: space-between;
+          #btn-add{
+            color: black;
+          }
+         .btn-remove{
+          padding: 2px 8px;
+          border: 2px solid transparent;
+          border-radius: 12px;
+          color: lightgray
+         }
+         .btn-remove:hover{
+          color: rgb(124, 124, 124);
+          border: 2px solid rgb(124, 124, 124);
+          padding: 2px 8px;
+          border-radius: 12px;
+          transition-duration: 0.2s;
+         }
+
+        }
       }
-     .btn-remove{
-      margin-left: 22px;
-      color: lightgray
-     }
-     .btn-remove:hover{
-      color: rgb(124, 124, 124);
-      border: 2px solid rgb(124, 124, 124) ;
-      padding: 2px 8px;
-      border-radius: 12px;
-      transition-duration: 0.2s;
-     }
     }
     .cocktail-preparation{
       background-color: #F6F9F8;
