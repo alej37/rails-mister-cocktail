@@ -21,13 +21,14 @@
       border: 2px solid red;
       background-color: #F6F9F8;
       .ingredients-box{
+        .fa-plus{
+         color: black;
+         font-size: 30px;
+       }
         .ingredient-description{
           margin: 12px;
           display: flex;
           justify-content: space-between;
-          #btn-add{
-            color: black;
-          }
          .btn-remove{
           padding: 2px 8px;
           border: 2px solid transparent;
