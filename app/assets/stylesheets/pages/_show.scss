@@ -1,23 +1,42 @@
 .container-show{
   border: 2px solid green;
   height: 650px;
+  padding: 35px;
   display: flex;
+  justify-content: center;
   .cocktail-image{
 
   }
   .cocktail-text{
     border: 2px solid blue;
+    margin-left: 80px;
+    width: 550px;
+    max-width: 550px;
     .cocktails-description{
       border: 2px solid purple;
       h1{
       }
-      ul{
-      }
     }
     .cocktail-ingredients{
       border: 2px solid red;
+      background-color: #F6F9F8;
+      #btn-add{
+        color: black;
+      }
+     .btn-remove{
+      margin-left: 22px;
+      color: lightgray
+     }
+     .btn-remove:hover{
+      color: rgb(124, 124, 124);
+      border: 2px solid rgb(124, 124, 124) ;
+      padding: 2px 4px;
+      border-radius: 8px;
+      transition-duration: 0.2s;
+     }
     }
     .cocktail-preparation{
+      background-color: #F6F9F8;
       border: 2px solid orange;
     }
 
