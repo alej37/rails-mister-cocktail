@@ -22,11 +22,15 @@
       padding: 10px;
       background-color: #F6F9F8;
       .ingredients-box{
+        ul{
+          border-bottom: 2px solid #3C3C3C;
+        }
         .fa-plus{
          margin-left: 12px;
          color: black;
          font-size: 30px;
          transition: all .5s linear;
+         margin-bottom: 24px;
        }
        .fa-plus:hover{
          transform: rotate(90deg);
