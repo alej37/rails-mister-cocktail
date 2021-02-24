@@ -15,7 +15,8 @@
  */
  @import "bootstrap/scss/bootstrap";
  @import "font-awesome-sprockets";
-@import "font-awesome";
+ @import "font-awesome";
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Truculenta:wght@300&display=swap');
  @import "components/navbar";
  @import "components/card";
  @import "pages/show";

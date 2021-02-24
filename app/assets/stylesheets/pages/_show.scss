@@ -1,5 +1,4 @@
 .container-show{
-  border: 2px solid green;
   height: 100vh;
   padding: 35px;
   display: flex;
@@ -8,23 +7,29 @@
 
   }
   .cocktail-text{
-    border: 2px solid blue;
     margin-left: 80px;
     width: 550px;
     max-width: 550px;
-    .cocktails-description{
-      border: 2px solid purple;
+    .cocktail-description{
+      padding: 10px;
       h1{
+      }
+      p{
+        font-family: 'Truculenta', sans-serif;
       }
     }
     .cocktail-ingredients{
-      border: 2px solid red;
+      padding: 10px;
       background-color: #F6F9F8;
       .ingredients-box{
         .fa-plus{
          margin-left: 12px;
          color: black;
          font-size: 30px;
+         transition: all .5s linear;
+       }
+       .fa-plus:hover{
+         transform: rotate(90deg);
        }
         .ingredient-description{
           margin: 12px;
@@ -48,8 +53,8 @@
       }
     }
     .cocktail-preparation{
+      padding: 10px;
       background-color: #F6F9F8;
-      border: 2px solid orange;
     }
 
   }

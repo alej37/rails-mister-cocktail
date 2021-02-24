@@ -55,7 +55,14 @@
   margin-right: 0px;
 }
 .navbar-brand:hover{
-  color:white;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  text-decoration: none;
+  color: mintcream;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 600;
+  margin-right: 0px;
 }
 
 .btn-white {
@@ -73,6 +80,13 @@
 .btn-white:hover {
   text-decoration: none;
   color: black;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-style: italic;
+  font-family: sans-serif;
 }
 
 .fa-glass-cheers {
@@ -85,6 +99,6 @@
 .fa-glass-cheers:hover {
   text-decoration: none;
   color: white;
-  transition: 0.5s;
-  font-size: 35px;
+  // transition: 0.5s;
+  // font-size: 35px;
 }
