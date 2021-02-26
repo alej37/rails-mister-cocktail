@@ -5,10 +5,13 @@
     <% if @cocktail.reviews.empty? %>
       <div id="new-review">
         <%= link_to 'New Review', new_cocktail_review_path(@cocktail) %>
-
       </div>
     <% else %>
-      <p> this is a review! </p>
+      <div class="star-review">
+        <ul>
+          <li></li>
+        </ul>
+      </div>
     <% end %>
     </div>
     <div class="cocktail-text">
