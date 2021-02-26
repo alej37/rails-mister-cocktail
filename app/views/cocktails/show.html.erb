@@ -3,11 +3,10 @@
   <div class="image">
     <%= cl_image_tag @cocktail.photo.key, height: 500, width: 600, crop: :fill %>
     <% if @cocktail.reviews.empty? %>
-      <p>Add a review</p>
-      <%= simple_form_for([@cocktail, @review]) do |f| %>
-        <%= f.input :rating, collection: 0..5 %>
-        <%= f.submit class: "btn btn-primary" %>
-      <% end %>
+      <div id="new-review">
+        <%= link_to 'New Review', new_cocktail_review_path(@cocktail) %>
+
+      </div>
     <% else %>
       <p> this is a review! </p>
     <% end %>
